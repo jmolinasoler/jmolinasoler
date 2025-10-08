@@ -1,0 +1,299 @@
+/* CV Stylesheet for HTML Output */
+
+:root {
+    --primary-color: #2E3440;
+    --secondary-color: #5E81AC;
+    --accent-color: #88C0D0;
+    --text-color: #3B4252;
+    --light-gray: #ECEFF4;
+    --link-color: #0066CC;
+    --heather-blue: #f5f5f5;
+    --ribbon-text: #2E3440;
+}
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    max-width: 8.5in;
+    margin: 0 auto;
+    padding: 0 1in 1in 1in;
+    background-color: white;
+}
+
+/* Typography */
+h1 {
+    font-size: 2.5em;
+    color: var(--ribbon-text);
+    text-align: left;
+    margin: 0;
+    margin-left: -1in;
+    margin-right: -1in;
+    margin-top: 0;
+    padding: 1rem;
+    padding-left: 1in;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    background: var(--heather-blue);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+/* Remove ribbon effect for cleaner look */
+h1::before,
+h1::after {
+    display: none;
+}
+
+h2 {
+    font-size: 1.4em;
+    color: var(--primary-color);
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 0.2em;
+    padding-left: 0;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+}
+
+h3 {
+    font-size: 1.1em;
+    color: var(--secondary-color);
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+    margin-left: 0;
+    padding-left: 0;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+}
+
+h4 {
+    font-size: 1em;
+    color: var(--text-color);
+    margin-top: 0.8em;
+    margin-bottom: 0.2em;
+    font-weight: bold;
+}
+
+/* Paragraph and text */
+p {
+    margin-bottom: 0.8em;
+    text-align: justify;
+}
+
+/* Links */
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Lists */
+ul, ol {
+    margin-left: 1.5em;
+    margin-bottom: 0.8em;
+}
+
+li {
+    margin-bottom: 0.3em;
+}
+
+/* Strong and emphasis */
+strong {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+    color: var(--secondary-color);
+}
+
+/* Code */
+code {
+    background-color: var(--light-gray);
+    padding: 0.1em 0.3em;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+}
+
+/* Header information */
+.header-info {
+    text-align: center;
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+/* Contact information styling - appears after ribbon header */
+body > h1 + p {
+    text-align: center;
+    font-size: 1em;
+    color: var(--primary-color);
+    margin: 1em 0 2em 0;
+    padding: 1em;
+    background: linear-gradient(145deg, #f8fafc, #e2e8f0);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-left: 4px solid var(--heather-blue);
+}
+
+/* Section spacing */
+h2:first-child {
+    margin-top: 0;
+}
+
+/* Experience entries */
+h3 + p {
+    font-style: italic;
+    color: var(--secondary-color);
+    margin-bottom: 0.5em;
+    font-size: 0.95em;
+}
+
+/* Print styles */
+@media print {
+    body {
+        font-size: 11pt;
+        line-height: 1.4;
+        padding: 0.5in;
+    }
+    
+    h1 {
+        font-size: 18pt;
+        background: var(--heather-blue) !important;
+        color: var(--ribbon-text) !important;
+        box-shadow: none !important;
+        text-align: left !important;
+    }
+    
+    h1::before,
+    h1::after {
+        display: none;
+    }
+    
+    h2 {
+        font-size: 14pt;
+        page-break-after: avoid;
+    }
+    
+    h3 {
+        font-size: 12pt;
+        page-break-after: avoid;
+    }
+    
+    p, li {
+        orphans: 3;
+        widows: 3;
+    }
+    
+    h2, h3, h4 {
+        page-break-after: avoid;
+    }
+    
+    ul, ol {
+        page-break-inside: avoid;
+    }
+    
+    body > h1 + p {
+        background: #f0f0f0 !important;
+        border-left: 4px solid var(--heather-blue) !important;
+        box-shadow: none !important;
+    }
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0 0.5in 0.5in 0.5in;
+        font-size: 14px;
+    }
+    
+    h1 {
+        font-size: 1.8em;
+        padding: 0.8rem;
+        padding-left: 0.5in;
+        margin-left: -0.5in;
+        margin-right: -0.5in;
+        margin-top: 0;
+        text-align: left;
+    }
+    
+    h1::before,
+    h1::after {
+        display: none; /* Remove ribbon effect on mobile */
+    }
+    
+    h2 {
+        font-size: 1.3em;
+        margin-left: 0;
+        text-align: left;
+    }
+    
+    h3 {
+        margin-left: 0;
+        text-align: left;
+    }
+    
+    ul, ol {
+        margin-left: 1em;
+    }
+    
+    body > h1 + p {
+        margin-left: -0.5in;
+        margin-right: -0.5in;
+        border-radius: 0;
+        border-left: none;
+        border-top: 4px solid var(--heather-blue);
+    }
+}
+
+/* Skills section formatting */
+h2:contains("Skills") + h3 {
+    display: inline-block;
+    margin-right: 1em;
+    margin-top: 0.5em;
+}
+
+/* Table styling (if used) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+
+th, td {
+    padding: 0.5em;
+    text-align: left;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+th {
+    background-color: var(--light-gray);
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 4px solid var(--secondary-color);
+    padding-left: 1em;
+    margin: 1em 0;
+    font-style: italic;
+    color: var(--secondary-color);
+}

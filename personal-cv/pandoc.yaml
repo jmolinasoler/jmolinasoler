@@ -1,0 +1,60 @@
+---
+# Pandoc YAML Configuration
+# This file contains default settings for CV generation
+
+# Document metadata
+lang: en-US
+papersize: letter
+fontsize: 11pt
+geometry: 
+  - margin=1in
+documentclass: article
+
+# PDF settings
+pdf-engine: xelatex
+variables:
+  colorlinks: true
+  urlcolor: blue
+  linkcolor: blue
+  citecolor: blue
+
+# HTML settings
+standalone: true
+self-contained: false
+css: cv-style.css
+html-math-method: katex
+
+# LaTeX settings
+template: cv-template.tex
+include-in-header: |
+  \usepackage{fontspec}
+  \setmainfont{TeX Gyre Pagella}
+  \setsansfont{TeX Gyre Heros}
+
+# Bibliography (if needed)
+# bibliography: references.bib
+# csl: apa.csl
+
+# Table of contents (usually not needed for CV)
+toc: false
+toc-depth: 2
+
+# Numbering
+number-sections: false
+number-offset: 0
+
+# Code highlighting
+highlight-style: tango
+listings: false
+
+# Cross-references
+link-citations: true
+reference-links: false
+
+# Other options
+strip-comments: true
+preserve-tabs: false
+tab-stop: 4
+wrap: auto
+columns: 80
+dpi: 300

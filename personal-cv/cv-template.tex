@@ -1,0 +1,162 @@
+\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$paper,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{article}
+
+% Packages
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{tikz}
+\usepackage{fontawesome5}
+
+% Geometry - only load once with options
+$if(geometry)$
+\usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
+$else$
+\usepackage[top=0in,bottom=1in,left=1in,right=1in]{geometry}
+$endif$
+
+% Colors
+\definecolor{linkcolor}{HTML}{0066CC}
+\definecolor{headingcolor}{HTML}{2E3440}
+\definecolor{subtitlecolor}{HTML}{5E81AC}
+\definecolor{heatherblue}{HTML}{f5f5f5}
+\definecolor{ribbontext}{HTML}{2E3440}
+
+% Hyperlinks
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkcolor,
+    urlcolor=linkcolor,
+    citecolor=linkcolor,
+    breaklinks=true
+}
+
+% Font
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}
+\setsansfont{TeX Gyre Heros}
+
+% Section formatting
+\titleformat{\section}
+  {\large\bfseries\sffamily\color{headingcolor}}
+  {}
+  {0em}
+  {\hspace{0em}}
+  [\titlerule]
+
+\titleformat{\subsection}
+  {\normalsize\bfseries\sffamily\color{subtitlecolor}}
+  {}
+  {0em}
+  {\hspace{0em}}
+
+\titleformat{\subsubsection}
+  {\small\bfseries\sffamily}
+  {}
+  {0em}
+  {\hspace{0em}}
+
+% Spacing - consistent left alignment
+\titlespacing*{\section}{0pt}{20pt plus 4pt minus 2pt}{8pt plus 2pt minus 2pt}
+\titlespacing*{\subsection}{0pt}{12pt plus 4pt minus 2pt}{4pt plus 2pt minus 2pt}
+\titlespacing*{\subsubsection}{0pt}{8pt plus 2pt minus 2pt}{4pt plus 2pt minus 2pt}
+\titlespacing*{\subsection}{0pt}{12pt plus 4pt minus 2pt}{4pt plus 2pt minus 2pt}
+\titlespacing*{\subsubsection}{0pt}{8pt plus 2pt minus 2pt}{4pt plus 2pt minus 2pt}
+
+% List formatting
+\setlist[itemize]{leftmargin=*, itemsep=2pt, topsep=4pt}
+\setlist[enumerate]{leftmargin=*, itemsep=2pt, topsep=4pt}
+
+% Pandoc tightlist fix
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\cfoot{\small\textcolor{gray}{Page \thepage\ of \pageref{LastPage}}}
+
+% Custom Header Ribbon Command
+\newcommand{\makeheaderribbon}{
+  % Full-width light gray ribbon spanning page from very top
+  \vspace*{-1in}% Remove any top spacing
+  \noindent\hspace*{-\oddsidemargin}\hspace*{-1in}%
+  \colorbox{heatherblue}{%
+    \parbox{\paperwidth}{%
+      \vspace{1em}
+      % Name - largest text, left-aligned with 1in margin, dark text
+      \begin{flushleft}
+        \hspace{1in}{\fontsize{28}{34}\selectfont\bfseries\sffamily\color{ribbontext} $title$}
+      \end{flushleft}
+      \vspace{0.5em}
+      % Contact and personal details in ribbon, left-aligned with 1in margin
+      \begin{flushleft}
+        \hspace{1in}{\large\color{ribbontext}
+          % First row: Phone, Email, LinkedIn
+          \faPhone* \, $phone$ \quad\textbar\quad 
+          \faEnvelope \, \href{mailto:$email$}{$email$} \quad\textbar\quad 
+          \faLinkedin \, \href{https://$linkedin$}{jmolinasoler}
+          \\[0.3em]
+          % Second row: DOB, Nationality, Address
+          \hspace{0em}Date of birth: 04/02/1980 \quad\textbar\quad 
+          Nationality: Spanish \quad\textbar\quad 
+          Address: $address$
+        }
+      \end{flushleft}
+      \vspace{1em}
+    }%
+  }
+  \vspace{1em}
+}
+
+% Title formatting
+\makeatletter
+\renewcommand{\maketitle}{
+  \makeheaderribbon
+}
+\makeatother
+
+% Pandoc compatibility
+$if(highlighting-macros)$
+$highlighting-macros$
+$endif$
+
+% Document
+\begin{document}
+
+$if(title)$
+\maketitle
+$endif$
+
+$for(include-before)$
+$include-before$
+$endfor$
+
+$if(toc)$
+{
+$if(colorlinks)$
+\hypersetup{linkcolor=$if(toccolor)$$toccolor$$else$black$endif$}
+$endif$
+\setcounter{tocdepth}{$toc-depth$}
+\tableofcontents
+}
+$endif$
+
+$body$
+
+$for(include-after)$
+$include-after$
+$endfor$
+
+\end{document}

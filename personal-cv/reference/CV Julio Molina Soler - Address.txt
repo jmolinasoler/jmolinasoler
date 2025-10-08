@@ -1,0 +1,304 @@
+Julio Molina Soler
+
+Date of birth: 04/02/1980 Nationality: Spanish Phone: (+32) 493190076
+(Mobile) Email: julio@molinasoler.xyz LinkedIn: jmolinasoler Address:
+3590, Diepenbeek, Belgium (Home)
+
+ABOUT MYSELF
+
+  A results-driven Senior Systems Engineer with nearly a decade of
+  experience at Cisco, specializing in solving complex technical
+  problems for global enterprise clients. My career is defined by three
+  core strengths: ensuring customer success, turning data into clear
+  business insights, and driving innovation.
+
+  My approach is backed by a consistent +90% customer satisfaction
+  rating and a unique background that includes five years as an
+  Innovation Coach, where I mentored diverse teams to build real-world
+  solutions from the ground up. I have a proven ability to not only fix
+  immediate issues but also to analyze data, build predictive tools, and
+  lead teams to award-winning performance.
+
+WORK EXPERIENCE
+
+ CISCO SYSTEMS – DIEGEM, BELGIUM
+
+  CISCO SENIOR TECHNICAL ENGINEER | DATACENTER ORCHESTRATION –
+  01/11/2019 – 31/03/2025
+
+As a Senior Technical Support Specialist at Cisco, I delivered expert
+technical support for a suite of enterprise applications, achieving a
++90% customer satisfaction rating. I excelled in resolving complex
+issues by collaborating with cross-functional engineering and
+development teams and built a strong foundational expertise in
+datacenter networking technologies like ACI and VXLAN.
+
+  Key Achievements:
+
+  • Identified and resolved critical issues in orchestration tools for
+  ACI and Nexus environments, ensuring seamless network operations for
+  clients.
+
+  • Acted as a key point of contact for cross-functional teams, earning
+  a reputation that led to my selection for resolving the most
+  challenging, multi-team issues.
+
+  • Led technical meetings with clients and development teams to
+  implement effective workarounds for critical product defects. •
+  Authored and submitted detailed defect reports with a >70% acceptance
+  rate by development, contributing directly to product stability and
+  improvement.
+
+  • Served as a Subject Matter Expert (SME), developing and delivering
+  technical presentations to train and update colleagues on product
+  features and troubleshooting techniques.
+
+  Supported Products:
+
+  • DCNM 10.x/11.x (Cisco Datacenter Network Manager) - LAN, SAN, IPFM
+
+  • Nexus Dashboard (Kubernetes-based platform)
+
+  • NDFC 2.x/3.x (Nexus Dashboard Fabric Controller) - LAN, SAN, IPFM
+
+  • NDI 6.x (Nexus Dashboard Insights) - Integrations with NDFC/ACI,
+  NetFlow Analytics
+
+  • NDO 4.x (Nexus Dashboard Orchestrator)
+
+  • Cisco Nexus Dashboard Data Broker
+
+  • Cisco UCS Director 5.x/6.x - Orchestration for UCS Servers, Hyper-V,
+  VMware
+
+  • Cisco Process Orchestrator & Intersight Orchestrator
+
+  • Cisco Intersight (SaaS & On-premises)
+
+  • CloudCenter Suite
+
+Technical Environment:
+
+  • Operating Systems: Linux (CentOS, AlmaLinux, Ubuntu)
+
+  • Containerization: Kubernetes, Docker, containerd
+
+  • Databases: MongoDB, CockroachDB, PostgreSQL
+
+  • Microservices & Messaging: Kafka
+
+  • Networking & APIs: Nginx, SSH, NXAPI
+
+ CISCO SYSTEMS – DIEGEM, BELGIUM
+
+  CISCO INNOVATION COACH FOR CISCO HACKATHONS – 01/04/2019 – 01/04/2024
+
+  Contributed significantly to Cisco's annual internal hackathon, a
+  collaborative initiative fostering innovation for clients and
+  partners. For 5 consecutive years, I directly coached different client
+  teams (each composed of 6-9 members with diverse backgrounds) over the
+  3-day event. I guided these teams in transforming their problem
+  statements into tangible, presentable solutions, culminating in final
+  presentations to a jury.
+
+  References:
+
+  https://gblogs.cisco.com/be/river-clean-up-wins-fourth-cisco-innovation-challenge/
+
+  https://gblogs.cisco.com/be/cisco-belux-innovation-challenge-2020-reshaped-to-face-the-next-normal/
+  https://gblogs.cisco.com/be/hack-the-crisis-en/
+
+  https://gblogs.cisco.com/be/hackforgoodhackathon/
+
+ CISCO SYSTEMS – DIEGEM, BELGIUM
+
+  CISCO TAC ENGINEER | TETRATION - SECURE WORKLOAD – 01/12/2016 –
+  01/11/2019
+
+  Provided expert technical support for Cisco's security workload
+  platform, achieving a +90% customer satisfaction rating. My role
+  involved direct client support, product improvement, and
+  cross-departmental collaboration to enhance security operations. •
+  Awarded 'Best Engineer of the Month' for delivering exceptional
+  customer service and technical solutions. • Secured 2nd place in an
+  internal hackathon by creating a tool that improved internal team
+  operations. • Developed a custom application that enabled the sales
+  team to better engage with clients during the sales process. • Built
+  security dashboards to monitor and identify unauthorized external
+  communications, helping to detect potential server breaches.
+
+  • Identified a critical defect in Hadoop that caused data analysis
+  failures, leading to a resolution that improved data accuracy for
+  clients.
+
+  • Troubleshot and resolved complex ACL and security policy issues in
+  collaboration with partners. • Improved the vulnerability reporting
+  process within the Tetration platform, making security alerts more
+  effective. • Co-led technical product demonstrations to prospective
+  clients, contributing directly to sales efforts.
+
+ IKANBI TECHNOLOGIES – HERSTAAL, BELGIUM
+
+  BUSINESS DATA ANALYST – 01/04/2015 – 01/11/2016
+
+  As a Business Data Analyst, I developed data solutions to drive
+  strategic decision-making, enhance operational efficiency, and improve
+  financial forecasting.
+
+  • Developed and deployed a QlikView performance tracking application
+  for the Proximus project in under six months, enabling management to
+  monitor agent performance and provide data-driven feedback to the
+  client. • Built a gross margin forecasting dashboard used across all
+  projects to provide weekly financial updates directly to the CEO. •
+  Created a predictive model to accurately forecast monthly call
+  volumes, eliminating end-of-month surprises in gross margin
+  calculations.
+
+  • Designed and implemented a project portal using .NET to centralize
+  and streamline internal project communication. • Automated the data
+  pipeline for production reports by building a system to automatically
+  receive and load files into the database for agent and manager access.
+
+  • Managed SQL Server administration and contributed to key product
+  efficiency enhancements.
+
+ LVS CONSULTING – AS, BELGIUM
+
+  SOFTWARE AND CONSULTING ENGINEER – 01/03/2010 – 01/04/2015
+
+As a Software and Consulting Engineer, I developed and optimized tools
+for analyzing Genesis and Avaya call center platforms. My role combined
+front-end development using Java and Adobe Flash with deep back-end
+optimization using Oracle PL/SQL and Perl.
+
+  • Engineered a log analysis tool using Perl that drastically reduced
+  data processing time from weeks to just days. • Optimized a key
+  internal tool, increasing its performance by over 30%.
+
+  • Developed a multithreaded Perl solution that cut database upload
+  times from weeks to hours.
+
+  • Created a new feature to analyze Oracle database performance using
+  AWR reports, providing detailed insights into system health.
+
+  • Improved query performance by analyzing Oracle Explain Plans to
+  identify and resolve bottlenecks and index issues. • Developed new
+  features in Java and Flash (ActionScript) to enhance data presentation
+  for clients. • Built a Windows-based framework to emulate agent
+  activity for platform stress-testing.
+
+  • Delivered clear technical presentations to customers, translating
+  complex data into actionable insights.
+
+ SITEL – DIEGEM, BELGIUM
+
+  CUSTOMER SUPPORT LINKSYS B2B TECHNICAL LEADER – 01/09/2006 –
+  01/09/2009
+
+  As Technical Lead for Cisco Linksys, I mentored a support team for
+  Linksys products, focusing on performance improvement, escalation
+  management, and technical training.
+
+  • Led the team to dramatically improve customer satisfaction from 50%
+  to over 95%, resulting in winning the 'Best Quarter Performance Team'
+  award for the EMEA region.
+
+  • Served as the primary point of contact for all technical escalations
+  and high-priority customer cases. • Developed and delivered technical
+  training programs for the team on new products and advanced
+  troubleshooting techniques.
+
+  • Acted as the incident lead for major product issues, creating and
+  executing contingency plans to minimize customer impact.
+
+  • Followed up on and managed the team's outstanding technical issues
+  on a weekly basis to ensure timely resolution.
+
+ SOPRA GROUP SA – BARCELONA, SPAIN
+
+  SYSTEM ENGINEER – 01/02/2004 – 01/04/2006
+
+  As a System Engineer at Sopra Steria Group, assigned to the Allianz
+  Insurance Company account in Barcelona, Spain, I was responsible for
+  the Windows Server environment and the VMware virtualization platform.
+  I oversaw datacenter operations, ensuring seamless backups, and
+  collaborated with cross-functional teams to deploy and troubleshoot
+  new services.
+
+  Key Responsibilities:
+
+  + Supported and maintained Microsoft Windows Server and the VMware
+  environment.
+
+  + Installed and maintained new servers (physical and virtual).
+
+  + Assisted with designing new services for the datacenter.
+
+  + Collaborated with the Mainframe team to troubleshoot performance
+  problems.
+
+ SETTING CONSULTORIA SL – BARCELONA, SPAIN
+
+  ONSITE ICT SUPPORT – 01/02/2003 – 31/01/2004
+
+  In this role, I provided technical support to internal engineers at
+  HP.
+
+  Key Responsibilities:
+
+  + Installed and maintained Microsoft Windows and Linux computers.
+
+  + Followed up on datacenter backups and performed basic datacenter
+  maintenance.
+
+  EDUCATION AND TRAINING
+
+  01/09/2003 – 15/07/2010 Barcelona, Spain
+
+TECHNICAL ENGINEERING IN ICT SYSTEMS Universitat Oberta de Catalunya
+
+Website https://www.uoc.edu/ Level in EQF EQF level 7
+
+  BLOCKCHAIN FUNDAMENTALS CERTIFICATION Chainlink Labs
+
+  ETHEREUM AND SOLIDITY: THE COMPLETE DEVELOPER'S GUIDE Udemy
+
+  01/04/2025 – 30/06/2025 Remote, Belgium
+
+  SMART CONTRACT HACKING COURSE - LITE VERSION JohnyTime
+
+Website https://smartcontractshacking.com/
+
+  CERTIFIED KUBERNETES ADMINISTRATOR: CKA (EXPIRED NOVEMBER 2024) The
+  Linux Foundation
+
+Website
+https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/
+
+  CISCO CERTIFIED DEVNET ASSOCIATE (EXPIRED JANUARY 2024) Cisco Systems
+
+  CISCO CERTIFIED ENTRY NETWORKING TECHNICIAN (CCENT) (EXPIRED OCTOBER
+  2022) Cisco Systems DEVNET CLASS OF 2020 Cisco Systems
+
+  INITIATOR BASKETBALL Basketbal Vlaanderen
+
+  NACSPORT BASIC SCOUTING Nacsport
+
+  ORACLE CERTIFIED PROFESSIONAL, JAVA EE 5 WEB COMPONENT DEVELOPER
+  Oracle
+
+  BECOME QLIKVIEW DEVELOPER FROM SCRATCH Udemy
+
+  LANGUAGE SKILLS
+
+  Mother tongue(s): SPANISH
+
+  Other language(s):
+
+UNDERSTANDING SPEAKING WRITING
+
+Listening Reading Spoken production Spoken interaction
+
+  ENGLISH C2 C2 C2 C2 C2 DUTCH B2 B2 B2 B2 B1 FRENCH A1 B1 A1 A1 A1
+  CATALAN C2 C2 C1 C1 C2 Levels: A1 and A2: Basic user - B1 and B2:
+  Independent user - C1 and C2: Proficient user
