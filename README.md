@@ -22,8 +22,6 @@ In my free time I build things at the intersection of **AI, automation, and Web3
 - **Bitcoin pruned node** — Bitcoin Core 27.2, mainnet, self-hosted
 - **Ethereum light client** — Helios (a16z), local RPC proxy, trustless verification
 - **4 algorithmic grid bots** — EVM (Arbitrum, Base, Linea) + Solana, system cron, zero cloud cost
-- **Local AI agent** — persistent memory, Telegram integration, autonomous monitoring
-- **Google Coral Edge TPU** — working on Python 3.12 + Ubuntu 24.04 (no official pycoral support)
 
 ---
 
