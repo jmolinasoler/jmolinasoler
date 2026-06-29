@@ -19,9 +19,8 @@ In my free time I build things at the intersection of **AI, automation, and Web3
 
 ## What I'm currently running
 
-- **Bitcoin pruned node** — Bitcoin Core 27.2, mainnet, self-hosted
-- **Ethereum light client** — Helios (a16z), local RPC proxy, trustless verification
-- **4 algorithmic grid bots** — EVM (Arbitrum, Base, Linea) + Solana, system cron, zero cloud cost
+- **Building a private AI cloud** — Just out of curiosity, I started with the bot, now I'm extending to self-hosted in the cloud
+- **Understanding AI** — Just created a tool to be able to check what the local llms are doing and how they can differ from a sentence in their souls
 
 ---
 
